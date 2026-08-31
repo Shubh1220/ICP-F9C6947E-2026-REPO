@@ -34,6 +34,9 @@ Technologies include Docker, Docker Compose, Nginx, Linux, Git & GitHub, Shell S
 
 The project will be reviewed and enhanced where necessary to align with the internship's Docker project requirements.
 
+**Existing Project Repository:**
+https://github.com/Shubh1220/Dockerized-3tier-app
+
 ### Project 2 – CI/CD Pipeline
 
 A CI/CD pipeline will be implemented for the Dockerized application using GitHub Actions.
