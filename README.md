@@ -52,17 +52,17 @@ ICP-F9C6947E-2026-REPO/
 │   └── environment-setup.md
 │
 ├── Week2/
+│   └── README.md
 │
 ├── Week3/
+│   └── README.md
 │
 ├── Week4/
-│
 ├── Week5/
-│
 └── Week6/
-```
 
 The weekly folders will be updated as the internship progresses.
+```
 
 ## Technologies
 
@@ -80,8 +80,8 @@ The weekly folders will be updated as the internship progresses.
 | Week   | Focus                          | Status      |
 | ------ | ------------------------------ | ----------- |
 | Week 1 | Foundation & Project Selection | ✅ Completed |
-| Week 2 | Project 1 Development          | ⏳ Upcoming  |
-| Week 3 | Project 1 Completion           | ⏳ Upcoming  |
+| Week 2 | Project 1 Development          | ✅ Completed  |
+| Week 3 | Project 1 Completion           | ✅ Completed  |
 | Week 4 | Project 2 Development          | ⏳ Upcoming  |
 | Week 5 | Project 2 Completion           | ⏳ Upcoming  |
 | Week 6 | Portfolio & Final Submission   | ⏳ Upcoming  |
