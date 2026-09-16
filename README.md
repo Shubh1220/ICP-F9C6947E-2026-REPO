@@ -30,7 +30,7 @@ A Dockerized three-tier application consisting of:
 
 **Frontend → Backend API → Database**
 
-Technologies include Docker, Docker Compose, Nginx, Linux, Git & GitHub, Shell Scripting, AWS EC2, and AWS RDS.
+Technologies include Docker, Docker Compose, Nginx, Linux, Git & GitHub, Shell Scripting.
 
 The project will be reviewed and enhanced where necessary to align with the internship's Docker project requirements.
 
@@ -73,7 +73,6 @@ The weekly folders will be updated as the internship progresses.
 * Docker Compose
 * GitHub Actions
 * Bash / Shell Scripting
-* AWS
 * Nginx
 
 ## Internship Progress
