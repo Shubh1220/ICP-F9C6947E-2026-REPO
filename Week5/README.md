@@ -78,6 +78,7 @@ This Week 5 work focuses on completing and validating these requirements.
                      |
                      v
              Published Image
+```
 
 ---
 
@@ -602,7 +603,7 @@ The successful execution confirms that the workflow can:
 The CI/CD pipeline successfully published the Docker image to:
 
 ```text
-opsshubh/streamflix-clone
+dockerhubusername/streamflix-clone
 ```
 
 Published tags include:
@@ -638,7 +639,7 @@ ${{ github.sha }}
 For example:
 
 ```text
-opsshubh/streamflix-clone:<commit-sha>
+dockerhubusername/streamflix-clone:<commit-sha>
 ```
 
 This provides a relationship between:
@@ -906,7 +907,7 @@ This completes the implementation, reliability testing, refinement, and document
 
 ## 32. Conclusion
 
-Week 5 completed the CI/CD project by validating the complete automated workflow and documenting the implementation.
+**Status: Week 5 completed the CI/CD project by validating the complete automated workflow and documenting the implementation**.
 
 The final pipeline uses GitHub Actions to automate testing, application building, Docker image creation, and Docker Hub publishing.
 
