@@ -1,30 +1,39 @@
-# Week 5 — CI/CD Pipeline Reliability Testing and Refinement
+# Week 5 – CI/CD Pipeline Completion, Reliability Testing and Documentation
 
 ## 1. Overview
 
-Week 5 focuses on reliability testing, refinement, and documentation of:
+Week 5 focuses on completing, testing, refining, and documenting **Project 3: CI/CD Pipeline** from the DevOps Engineering Self-Learning Internship.
 
-**Project 3 — CI/CD Pipeline**
+The objective is to ensure that the CI/CD pipeline is reliable, reproducible, and properly documented.
 
-The CI/CD pipeline is implemented using **GitHub Actions** and automates:
+The pipeline automates:
 
-- Application testing
-- Production application build
-- Docker image build
-- Docker image publishing to Docker Hub
-- Pipeline execution through GitHub push and pull-request triggers
+1. Automated testing
+2. Application build
+3. Docker image build
+4. Docker image publishing to Docker Hub
 
-The goal of this week is to verify that the pipeline works reliably from source-code changes through container image publishing.
+The implementation uses **GitHub Actions** as the CI/CD platform.
 
 ---
 
 ## 2. Project 3 Requirements
 
-The internship Project 3 requires a CI/CD pipeline that addresses the problem of automating testing and deployment.
+The internship task defines Project 3 as:
 
-### Required Skills and Tools
+> **CI/CD Pipeline**
 
-- GitHub Actions or GitLab CI
+### Real-World Problem
+
+Code changes need automated testing and deployment.
+
+### Difficulty Level
+
+Intermediate
+
+### Key Skills and Tools
+
+- GitHub Actions / GitLab CI
 - Test Automation
 - Build Stages
 - Deployment Triggers
@@ -33,11 +42,11 @@ The internship Project 3 requires a CI/CD pipeline that addresses the problem of
 
 A complete CI/CD pipeline with multiple stages.
 
-This project uses **GitHub Actions** as the CI/CD platform.
+This Week 5 work focuses on completing and validating these requirements.
 
 ---
 
-# 3. Project Architecture
+## 3. Project Architecture
 
 ```text
                     Developer
@@ -69,7 +78,6 @@ This project uses **GitHub Actions** as the CI/CD platform.
                      |
                      v
              Published Image
-
 
 ---
 
