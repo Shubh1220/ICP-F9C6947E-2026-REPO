@@ -48,22 +48,76 @@ ICP-F9C6947E-2026-REPO/
 ├── README.md
 │
 ├── Week1/
-│   ├── project-selection.md
-│   └── environment-setup.md
+│   ├── environment-setup.md
+│   └── project-selection.md
 │
 ├── Week2/
-│   └── README.md
+│   ├── README.md
+│   ├── backend/
+│   │   ├── Dockerfile
+│   │   ├── app.py
+│   │   └── requirements.txt
+│   ├── compose-config.txt
+│   ├── deploy/
+│   │   └── deploy.sh
+│   ├── docker-compose.prod.yml
+│   ├── docker-compose.yml
+│   ├── frontend/
+│   │   ├── Dockerfile
+│   │   ├── app.js
+│   │   ├── index.html
+│   │   ├── nginx.conf
+│   │   └── style.css
+│   ├── images/
+│   │   └── architecture.gif
+│   ├── nginx/
+│   │   ├── Dockerfile
+│   │   └── nginx.conf
+│   └── screenshots/
+│       ├── docker ps.png
+│       ├── dockerhub.png
+│       ├── live-browser.png
 │
 ├── Week3/
 │   └── README.md
 │
 ├── Week4/
+│   ├── README.md
+│   ├── app/
+│   │   ├── Dockerfile
+│   │   ├── index.html
+│   │   ├── nginx.conf
+│   │   ├── package-lock.json
+│   │   ├── package.json
+│   │   ├── src/
+│   │   │   ├── App.css
+│   │   │   ├── App.jsx
+│   │   │   ├── App.test.jsx
+│   │   │   ├── api/
+│   │   │   │   └── tmdb.js
+│   │   │   ├── config.js
+│   │   │   ├── main.jsx
+│   │   │   └── setupTests.js
+│   │   └── vite.config.js
+│   ├── images/
+│   │   ├── architecture.gif
+│   │   └── pipeline-stages.gif
+│   └── screenshots/
+│       ├── docker-hub.png
+│       ├── docker-ps.png
+│       └── live-browsing.png
+│
 ├── Week5/
+│   └── README.md
+│
 └── Week6/
+    ├── README.md
+    ├── portfolio.md
+    ├── runbook-cicd.md
+    └── runbook-docker-3tier.md
 
-The weekly folders will be updated as the internship progresses.
+The internship has been completed with documentation, project files, testing evidence, portfolio material, and operational runbooks organized across Week 1–Week 6.
 ```
-
 ## Technologies
 
 * Linux
@@ -79,12 +133,12 @@ The weekly folders will be updated as the internship progresses.
 
 | Week   | Focus                          | Status      |
 | ------ | ------------------------------ | ----------- |
-| Week 1 | Foundation & Project Selection | ✅ Completed |
+| Week 1 | Foundation & Project Selection | ✅ Completed  |
 | Week 2 | Project 1 Development          | ✅ Completed  |
 | Week 3 | Project 1 Completion           | ✅ Completed  |
-| Week 4 | Project 2 Development          | ⏳ Upcoming  |
-| Week 5 | Project 2 Completion           | ⏳ Upcoming  |
-| Week 6 | Portfolio & Final Submission   | ⏳ Upcoming  |
+| Week 4 | Project 2 Development          | ✅ Completed  |
+| Week 5 | Project 2 Completion           | ✅ Completed  |
+| Week 6 | Portfolio & Final Submission   | ✅ Completed  |
 
 ## Documentation
 
